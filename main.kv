@@ -1,0 +1,235 @@
+<Adm>:
+    Principal:
+
+<Principal>:
+    name:"Principal"
+
+    MDFloatLayout:
+        Image:
+            source:"fundo.png"
+            allow_stretch : True
+            keep_ratio : False
+            pos_hint:{"center_x": 0.5, "center_y":0.5}
+
+
+
+        MDLabel:
+            id: label
+            pos_hint: {"center_x": 0.60, "center_y":0.95}
+            text:"jogador1"
+            bold: True
+            size_hint: "0.25sp", "0.10sp"
+
+
+
+        MDCard:
+            size_hint: None, None
+            size: "80sp", "80sp"
+            pos_hint: {"center_x": 0.2, "center_y":0.8}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.marca1()
+                root.verifica()
+            Image:
+                id: id1
+                source:"nada.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+        MDCard:
+
+            size_hint: None, None
+            size: "80sp", "80sp"
+            pos_hint: {"center_x": 0.5, "center_y":0.8}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.marca2()
+                root.verifica()
+
+            Image:
+                id: id2
+                source:"nada.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+        MDCard:
+
+            size_hint: None, None
+            size: "80sp", "80sp"
+            pos_hint: {"center_x": 0.8, "center_y":0.8}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.marca3()
+                root.verifica()
+
+            Image:
+                id: id3
+                source:"nada.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+        MDCard:
+
+            size_hint: None, None
+            size: "80sp", "80sp"
+            pos_hint: {"center_x": 0.2, "center_y":0.64}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.marca4()
+                root.verifica()
+            Image:
+                id: id4
+                source:"nada.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+        MDCard:
+
+            size_hint: None, None
+            size: "80sp", "80sp"
+            pos_hint: {"center_x": 0.5, "center_y":0.64}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.marca5()
+                root.verifica()
+            Image:
+                id: id5
+                source:"nada.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+        MDCard:
+
+            size_hint: None, None
+            size: "80sp", "80sp"
+            pos_hint: {"center_x": 0.8, "center_y":0.64}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.marca6()
+                root.verifica()
+            Image:
+                id: id6
+                source:"nada.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+
+        MDCard:
+
+            size_hint: None, None
+            size: "80sp", "80sp"
+            pos_hint: {"center_x": 0.2, "center_y":0.48}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.marca7()
+                root.verifica()
+            Image:
+                id: id7
+                source:"nada.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+        MDCard:
+
+            size_hint: None, None
+            size: "80sp", "80sp"
+            pos_hint: {"center_x": 0.5, "center_y":0.48}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.marca8()
+                root.verifica()
+            Image:
+                id: id8
+                source:"nada.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+        MDCard:
+
+            size_hint: None, None
+            size: "80sp", "80sp"
+            pos_hint: {"center_x": 0.8, "center_y":0.48}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.marca9()
+                root.verifica()
+            Image:
+                id: id9
+                source:"nada.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+        MDCard:
+
+            size_hint: None, None
+            size: "160sp", "70sp"
+            pos_hint: {"center_x": 0.5, "center_y":0.25}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                root.limpa()
+
+            Image:
+                id: id10
+                source:"nova.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
+
+        MDCard:
+
+            size_hint: None, None
+            size: "160sp", "70sp"
+            pos_hint: {"center_x": 0.5, "center_y":0.11}
+            elevation: 3
+            md_bg_color: 230/255, 230/255, 250/255, 1
+            ripple_behavior: True
+            on_press:
+                app.fechar()
+
+
+            Image:
+                id: id10
+                source:"sair.png"
+                size_hint: "0.8sp", "0.8sp"
+                pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+                allow_stretch: True
+                keep_ratio: True
